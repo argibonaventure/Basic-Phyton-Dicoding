@@ -7,7 +7,7 @@ isGraduate = True
 score = {"Math":100, "Physic":100, "Biology":100} #dictionary
 programId =[1,"Machine Learning", True, 22.05] #list
 programId2 = (1,"Machine Learning", True, 22.05) #tuple
-index1 = {1,2,3,4,5,6,7} #set
+index1 = {1,2,3,4,5,6,7,7} #set
 index2 = {4,7,8,9} #set
 
 programId[0] = 2 #list index replacement . note : it can't br done in tuple
@@ -34,6 +34,7 @@ print (programId2[1:4]) #sequence(x[start:stop:step])
 
 print("=====================================")
 #set manipulation. note: set doesn't have index
+print(index1)
 print(index1.union(index2))
 print (index1.intersection(index2))
 
