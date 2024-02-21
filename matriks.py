@@ -11,7 +11,7 @@ matriks = [[1, 2, 3],
 print(matriks)
 
     
-print("======================")
+print("==========================================")
 #Matrix in Python using Array from Numpy library
 
 matriks2 = numpy.array([[1, 2, 3],
@@ -24,8 +24,15 @@ print(matriks2)
 print("Ukuran keseluruhan elemen list dalam bytes = ",sys.getsizeof(matriks)*len(matriks))
 print("Ukuran keseluruhan elemen NumPy dalam bytes = ", matriks2.size*matriks2.itemsize)
 
+print("==========================================")
+#Creating Matrix with default value
 
-print("======================")
+matrixNew = [[0 for j in range (5)]for i in range (3)]
+
+print(matrixNew)
+
+
+print("==========================================")
 #Akses matrix
 
 var_mat = [[1, 2, 3, 4, 5],
@@ -36,7 +43,7 @@ var_mat = [[1, 2, 3, 4, 5],
            
 print(var_mat[2][1])
 
-print("======================")
+print("==========================================")
 #Multiple calculation in Matrix
 
 #generic method, without library
