@@ -1,4 +1,4 @@
-import modul
+from modul import penjumlahan
 
 
 #regular function
@@ -17,6 +17,6 @@ print (function(1,2,3))
 
 
 #Modul import function
-penjumlahan2 = modul.penjumlahan(2,3)
+penjumlahan2 = penjumlahan(2,3)
 print(penjumlahan2)
 
